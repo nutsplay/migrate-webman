@@ -1,0 +1,31 @@
+{
+  "name": "superwave/migrate",
+  "type": "library",
+  "description": "Database migration scripts for webman+MySQL",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "iamzz",
+      "email": "iamzz@iamzz.cn"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/console": "^6.2",
+    "illuminate/database": "^10.1",
+    "symfony/finder": "^6.2",
+    "symfony/filesystem": "^6.2",
+    "workerman/webman-framework": "^1.5.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "superwave\\migrate\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/migrate"
+  ],
+  "suggest": {
+  }
+}

@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+$app = require __DIR__.'/../src/sw.php';
+$app->run();
